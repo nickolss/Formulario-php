@@ -8,23 +8,23 @@ class Teste{
         $pessoa = new Pessoa();
 
         $pessoa->setNome($_POST['nome']);
-        echo $pessoa->getNome();
+        echo "Nome: $pessoa->getNome()";
         echo "<br>";
 
         $pessoa->setTelefone($_POST['telefone']);
-        echo $pessoa->getTelefone();
+        echo "Telefone: $pessoa->getTelefone()";
         echo "<br>";        
 
         $pessoa->setOrigem($_POST['origem']);
-        echo $pessoa->getOrigem();
+        echo "Origem: $pessoa->getOrigem()";
         echo "<br>";
         
         $pessoa->setData($_POST['data']);
-        echo $pessoa->getData();
+        echo "Data: $pessoa->getData()";
         echo "<br>";
 
         $pessoa->setObservacao($_POST['observacao']);
-        echo $pessoa->getObservacao();
+        echo "Observação: $pessoa->getObservacao()";
     }
 }new Teste();
 
