@@ -27,7 +27,7 @@
                                     <a class="nav-link ativo" aria-current="page" href="index.php">Cadastrar</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link cabecalho__menu" href="#">Consultar</a>
+                                    <a class="nav-link cabecalho__menu" href="consulta.php">Consultar</a>
                                 </li>
                             </ul>
                         </div>
