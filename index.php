@@ -44,7 +44,7 @@
         </div>
         <div class="row">
             <div class="col formulario">
-                    <form action="teste.class.php" method="POST">
+                    <form action="consulta.php" method="POST">
                         <div class="mb-3">
                             <label for="nome" class="form-label">Nome:</label>
                             <input type="text" class="form-control" id="nome" name="nome" required>

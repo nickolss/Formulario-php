@@ -5,7 +5,7 @@ class Teste{
     private $pessoa;
 
     public function __construct(){
-        $pessoa = new Pessoa();
+        $pessoa = new 
 
         $pessoa->setNome($_POST['nome']);
         echo "Nome:" . $pessoa->getNome();
