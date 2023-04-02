@@ -43,24 +43,13 @@ div.cabecalho{
 .tabelinha{
     display: flex;
     justify-content: center;
-}
-
-.tabela{
-    max-width: 95vw;
+    margin: auto;
+    width: 75vw;
+    
 }
 
 .tabela__cabecalho{
-    display: flex;
-    gap: 50px;
     background-color: var(--azul);
-    padding: 1rem;
-}
-
-.tabela__titulos{
     font-size: 1.2rem;
     font-weight: 700;
-}
-
-.tabela__conteudo{
-    border: 1px solid black;
 }
