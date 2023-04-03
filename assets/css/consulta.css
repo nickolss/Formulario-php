@@ -61,5 +61,10 @@ table.tabela{
 
 .tabela__titulo{
     padding: 1rem;
-    margin: 0 1rem;
+}
+
+@media screen and (max-width: 800px) {
+    div.tabelinha{
+        overflow: scroll;
+    }
 }

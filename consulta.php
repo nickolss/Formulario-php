@@ -62,7 +62,7 @@
                                 <th class="tabela__titulo">Ação</th>
                             </tr>
                         </thead>
-                        <tbody>
+                        <tbody class="tabela__resposta">
                             <tr>
                                 <td class="tabela__conteudo">
                                     <?php
@@ -105,7 +105,7 @@
                                         ?>
                                 </td>
                                 <td class="tabela__conteudo">
-                                    <p>Editar</p>
+                                    Editar
                                 </td>
                             </tr>
                         </tbody>

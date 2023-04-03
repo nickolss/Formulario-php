@@ -58,8 +58,8 @@
                         <div class="mb-3">
                             <label for="origem" class="form-label">Origem: </label>
                             <select class="form-select" name="origem" id="origem">
-                                <option value="celular">Celular</option>
-                                <option value="computador">Computador</option>
+                                <option value="Celular">Celular</option>
+                                <option value="Computador">Computador</option>
                                 <option value="notebook">Notebook</option>
                             </select>
                         </div>
