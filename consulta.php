@@ -48,68 +48,70 @@
             </div>
         </div>
 
-        <div class="tabelinha">
-            <table class="table">
-                <thead class="tabela__cabecalho">
-                    <tr>
-                        <th scope="col">Nome</th>
-                        <th scope="col">Telefone</th>
-                        <th scope="col">Origem</th>
-                        <th scope="col">Contato</th>
-                        <th scope="col">Observação</th>
-                        <th scope="col">Ação</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td class="tabela__conteudo">
-                            <?php
-                            require_once("pessoa.class.php");
-                            $pessoa = new Pessoa();
-                            $pessoa->setNome($_POST['nome']);
-                            echo $pessoa->getNome();
-                            ?>
-                        </td>
-                        <td class="tabela__conteudo">
-                            <?php
+        <div class="row">
+            <div class="col">
+                <div class="tabelinha">
+                    <table class="tabela">
+                        <thead class="tabela__cabecalho">
+                            <tr>
+                                <th class="tabela__titulo">Nome</th>
+                                <th class="tabela__titulo">Telefone</th>
+                                <th class="tabela__titulo">Origem</th>
+                                <th class="tabela__titulo">Contato</th>
+                                <th class="tabela__titulo">Observação</th>
+                                <th class="tabela__titulo">Ação</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td class="tabela__conteudo">
+                                    <?php
                                     require_once("pessoa.class.php");
                                     $pessoa = new Pessoa();
-                                    $pessoa->setTelefone($_POST['telefone']);
-                                    echo $pessoa->getTelefone();
-                                ?>
-                        </td>
-                        <td class="tabela__conteudo">
-                            <?php
-                                    require_once("pessoa.class.php");
-                                    $pessoa = new Pessoa();
-                                    $pessoa->setOrigem($_POST['origem']);
-                                    echo $pessoa->getOrigem();
-                                ?>
-                        </td>
-
-                        <td class="tabela__conteudo">
-                            <?php
-                                    require_once("pessoa.class.php");
-                                    $pessoa = new Pessoa();
-                                    $pessoa->setData($_POST['data']);
-                                    echo $pessoa->getData();
-                                ?>
-                        </td>
-
-                        <td class="tabela__conteudo">
-                            <?php
-                                    require_once("pessoa.class.php");
-                                    $pessoa = new Pessoa();
-                                    $pessoa->setObservacao($_POST['observacao']);
-                                    echo $pessoa->getObservacao();
-                                ?>
-                        </td>
-                        <td class="tabela__conteudo">
-                            <p>Editar</p>
-                        </td>
-                    </tr>
-                </tbody>
-            </table>
+                                    $pessoa->setNome($_POST['nome']);
+                                    echo $pessoa->getNome();
+                                    ?>
+                                </td>
+                                <td class="tabela__conteudo">
+                                    <?php
+                                            require_once("pessoa.class.php");
+                                            $pessoa = new Pessoa();
+                                            $pessoa->setTelefone($_POST['telefone']);
+                                            echo $pessoa->getTelefone();
+                                        ?>
+                                </td>
+                                <td class="tabela__conteudo">
+                                    <?php
+                                            require_once("pessoa.class.php");
+                                            $pessoa = new Pessoa();
+                                            $pessoa->setOrigem($_POST['origem']);
+                                            echo $pessoa->getOrigem();
+                                        ?>
+                                </td>
+                                <td class="tabela__conteudo">
+                                    <?php
+                                            require_once("pessoa.class.php");
+                                            $pessoa = new Pessoa();
+                                            $pessoa->setData($_POST['data']);
+                                            echo $pessoa->getData();
+                                        ?>
+                                </td>
+                                <td class="tabela__conteudo">
+                                    <?php
+                                            require_once("pessoa.class.php");
+                                            $pessoa = new Pessoa();
+                                            $pessoa->setObservacao($_POST['observacao']);
+                                            echo $pessoa->getObservacao();
+                                        ?>
+                                </td>
+                                <td class="tabela__conteudo">
+                                    <p>Editar</p>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
         </div>
     </div>
 </body>

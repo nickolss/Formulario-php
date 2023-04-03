@@ -31,6 +31,9 @@ div.cabecalho{
 
 .descricao, .formulario{
     padding: 1rem 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .formulario__enviar{
@@ -40,16 +43,23 @@ div.cabecalho{
     padding: 0.5rem 2rem;
 }
 
-.tabelinha{
+div.tabelinha{
     display: flex;
     justify-content: center;
-    margin: auto;
-    width: 75vw;
-    
+    align-items: center;
+}
+
+table.tabela{
+    padding: 0.5rem;
 }
 
 .tabela__cabecalho{
     background-color: var(--azul);
     font-size: 1.2rem;
     font-weight: 700;
+}
+
+.tabela__titulo{
+    padding: 1rem;
+    margin: 0 1rem;
 }
